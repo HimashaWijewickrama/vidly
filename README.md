@@ -1,4 +1,4 @@
-# Vidly Movie Rendering Service
+# Vidly Movie Rendering Web Application
 
 ## Project Overview
 
