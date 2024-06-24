@@ -15,6 +15,7 @@ import { MdDelete } from "react-icons/md";
 import Swal from "sweetalert2";
 import Footer from "./footer";
 import Header from "./header";
+import News from "./news";
 
 export default function Home() {
   const [movies, setMovies] = useState([]);
@@ -267,6 +268,11 @@ export default function Home() {
               </Card>
             </Col>
           ))}
+        </Row>
+        <Row>
+          <Col>
+            <News />
+          </Col>
         </Row>
         <br />
         <hr className="section-divider" />
