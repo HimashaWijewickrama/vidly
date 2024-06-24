@@ -99,7 +99,7 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Container fluid id="title-section">
-        <a className="navbar-brand" href="/home" id="title-text">
+        <a className="navbar-brand" href="/vidly/home" id="title-text">
           vidly
         </a>
         <h1 className="mb-3 fw-bold">| </h1>

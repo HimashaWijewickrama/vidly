@@ -5,24 +5,36 @@ import Nav from "./nav";
 
 export default function Header() {
   return (
-    <Container>
+    <div>
+      <Row >
+      <Container>
+        <a className="navbar-brand" href="/vidly/home" id="title-text">
+          vidly
+          <h6>The movie rendering service</h6>
+          <hr/>
+        </a>
+        </Container>
+      </Row>
       <Row>
         <Col>
           <div className="cover-poster-item">
             <img
-              src="https://sm.ign.com/t/ign_in/screenshot/default/marv_eawn.1200.png"
-              className="d-block w-10’0"
-              alt="vidly-cover-1"
+              src="https://w.wallhaven.cc/full/0w/wallhaven-0w2de6.jpg"
+              alt="vidly-cover-poster"
             />
+            <div className="cover-poster-text">
+              Hello <br />
+              <span></span>
+            </div>
           </div>
         </Col>
       </Row>
-      <Row className="title-section">
+      {/* <Row className="title-section">
         <Col className="title-text">Vidly</Col>
-      </Row>
+      </Row> */}
       <Row>
-        <Nav/>
+        <Nav />
       </Row>
-    </Container>
+    </div>
   );
 }
