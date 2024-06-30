@@ -23,15 +23,15 @@
   font-size: 64px;
   min-width: 280px;
 }
-.cover-poster-text span{
+.cover-poster-text span {
   position: relative;
 }
-.cover-poster-text span::before{
+.cover-poster-text span::before {
   content: "World";
   color: #ff7f50;
-  animation: words 20s infinite ;
+  animation: words 20s infinite;
 }
-.cover-poster-text span::after{
+.cover-poster-text span::after {
   content: "";
   position: absolute;
   width: calc(100% + 8px);
@@ -39,37 +39,59 @@
   background-color: white;
   border-left: 2px solid #ff7f50;
   right: -8px;
-  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
 }
-@keyframes cursor{
-  to{
+@keyframes cursor {
+  to {
     border-left: 2px solid #ff7f5000;
   }
 }
-@keyframes words{
-  0%,20%{
-    content: "World";
+@keyframes words {
+  0%,
+  20% {
+    content: "Watch Movies";
   }
-  21%,40%{
-    content: "Himasha";
+  21%,
+  40% {
+    content: "Watch Hits";
   }
-  41%,60%{
-    content: "Mern";
+  41%,
+  60% {
+    content: "Be Relax";
   }
-  61%,80%{
-    content: "2024";
+  61%,
+  80% {
+    content: "Enjoy Anytime";
   }
-  81%,100%{
-    content: "Programmer";
+  81%,
+  100% {
+    content: "Enjoy More";
   }
 }
-@keyframes typing{
-  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
     width: 0;
-}
-5%,20%,25%,40%,45%,60%,65%,80%,85%{
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
     width: calc(100% + 8px);
-}
+  }
 }
 
 .App-user {
@@ -178,7 +200,7 @@
 .section-divider {
   color: #ffffff;
 }
-.search-bar{
+.search-bar {
   background-color: #282c34;
   display: flex;
   /* align-items: center; */
@@ -189,9 +211,8 @@
   /* min-height: 100vh; */
   display: flex;
   /* flex-direction: column; */
-
 }
-#search-addon{
+#search-addon {
   background-color: black;
   border: 1px solid #dc5f00;
   color: white;

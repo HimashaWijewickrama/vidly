@@ -10,7 +10,7 @@ import {
   Modal,
   Row,
 } from "react-bootstrap";
-import { GrEdit, GrView, GrSearch } from "react-icons/gr";
+import { GrEdit, GrPlay, GrPlayFill, GrSearch, GrView } from "react-icons/gr";
 import { MdDelete } from "react-icons/md";
 import Swal from "sweetalert2";
 import Footer from "./footer";
@@ -262,6 +262,12 @@ export default function Home() {
                       onClick={() => deletemovie(movie._id)}
                     >
                       <MdDelete /> Delete
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      
+                    >
+                      <GrPlay /> Watch
                     </Button>
                   </div>
                 </Card.Body>

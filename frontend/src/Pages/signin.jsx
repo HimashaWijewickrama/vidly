@@ -71,7 +71,7 @@ export default function Signin() {
           </Row>
         </Form>
         <span className="sub-text">
-          Don't have an account? <a href="/sign-up">Sign Up</a>{" "}
+          Don't have an account? <a href="/vidly/sign-up">Sign Up</a>{" "}
         </span>
       </Container>
     </div>

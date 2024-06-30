@@ -203,7 +203,7 @@ export default function Signup() {
           </Row>
         </Form>
         <span className="sub-text">
-          Already have an account? <a href="/sign-in">Sign In</a>{" "}
+          Already have an account? <a href="/vidly/sign-up">Sign In</a>{" "}
         </span>
       </Container>
     </div>

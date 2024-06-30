@@ -23,7 +23,7 @@ export default function Header() {
               alt="vidly-cover-poster"
             />
             <div className="cover-poster-text">
-              Hello <br />
+              Let's <br />
               <span></span>
             </div>
           </div>
